@@ -1,0 +1,47 @@
+.header {
+  background-color: rgb(245, 243, 247);
+  box-shadow: 1px 1px 50px rgba(0, 0, 0, 0.2);
+  position: fixed;
+  top: -100px;
+  left: 0px;
+  right: 0px;
+  height: 90px;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  z-index: 100;
+  transition: top 0.5s ease;
+
+  font-family: Zalando Sans Expanded, Arial;
+  color: rgb(111, 102, 130);
+  text-decoration: none;
+  font-weight: 700;
+  font-size: clamp(1rem, 2vw, 1.5rem);
+  padding-right: max(45px, 5%);
+}
+
+/*
+a {
+  font-family: Zalando Sans Expanded, Arial;
+  color: rgb(133, 126, 148);
+  text-decoration: none;
+  font-weight: 700;
+  font-size: clamp(1rem, 2vw, 1.5rem);
+  transition: color 0.15s, font-weight 0.15s;
+}
+
+a:hover {
+  cursor: pointer;
+  color: rgb(75, 69, 86);
+  font-weight: 800;
+}
+
+a:active {
+  color: rgb(133, 126, 148);
+  font-weight: 700;
+}
+
+.about-page, .gallery-page {
+  margin-right: max(45px, 5%);
+}
+*/
