@@ -2,24 +2,25 @@
   background-color: rgb(36, 30, 53);
   display: flex;
   flex-direction: column;
-  padding: 50px;
+  padding: max(40px, 3.5%);
 }
 
 .contact-section-title {
   font-family: Zalando Sans Expanded, Arial;
   text-align: center;
   color: rgb(255, 255, 255);
-  margin-top: 0px;
-  margin-bottom: 20px;
+  margin: 0px;
+  margin-bottom: 15px;
   font-weight: 700;
-  font-size: clamp(1.8rem, 4vw, 3rem);
+  font-size: clamp(1.5rem, 2.5vw, 3rem);
 }
 
 .contact-title {
   color: white;
-  font-size: clamp(1.2rem, 3vw, 2rem);
+  font-size: clamp(1.1rem, 1.8vw, 2rem);
   font-weight: 650;
   margin-bottom: 1px;
+  margin-top: max(0px, 5%);
 }
 
 .contact-info {
@@ -45,13 +46,13 @@
   margin-bottom: 20px;
   color: rgb(187, 170, 189);
   font-family: Open Sans, Arial;
-  font-size: clamp(1rem, 2vw, 1.3rem);
+  font-size: clamp(1rem, 1.2vw, 1.3rem);
 }
 
 .social-media-link {
   color: white;
   font-family: Open Sans, Arial;
-  font-size: clamp(1rem, 2vw, 1.2rem);
+  font-size: clamp(0.9rem, 1.2vw, 1.2rem);
   transition: color 0.15s, font-weight 0.15s;
 }
 
