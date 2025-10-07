@@ -12,14 +12,13 @@
   margin-top: 0px;
   margin-bottom: max(20px, 2%);
   font-weight: 700;
-  font-size: clamp(100%, 5vw, 3.5rem);
+  font-size: clamp(100%, 3vw, 3.5rem);
 }
 
 .measurements-section-info {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  padding-top: max(0px, 3%);
   padding-left: max(0px, 5%);
   padding-right: max(0px, 5%);
 }
@@ -30,20 +29,26 @@
   align-self: center;
   overflow: hidden;
   position: relative;
-  height: 85vh;
-  width: 30vw;
+  height: 75vh;
+  width: 25vw;
   min-width: 120px;
+}
+
+@media (max-width: 380px) {
+  .full-body-image {
+    height: 48vh !important;
+  }
 }
 
 @media (max-width: 450px) {
   .full-body-image {
-    height: 48vh;
+    height: 40vh !important;
   }
 }
 
 @media (max-width: 1025px) {
   .full-body-image {
-    height: 48vh;
+    height: 40vh;
   }
 }
 
@@ -64,7 +69,7 @@
 }
 
 .info {
-  font-size: clamp(0.85rem, 3vw, 1.5rem);
+  font-size: clamp(0.85rem, 1.5vw, 1.5rem);
   color: rgb(75, 69, 86);
   margin-top: max(8px, 10%);
   margin-bottom: max(8px, 10%);
@@ -75,7 +80,7 @@
   margin-bottom: max(25px, 3%);
   background-color: rgb(236, 234, 238);
   box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.1);
-  font-size: clamp(0.8rem, 1.2vw, 1.5rem);
+  font-size: clamp(0.6rem, 1.2vw, 1.5rem);
   font-family: Open Sans, Arial;
   font-weight: 500;
   color: rgb(75, 69, 86);
@@ -103,6 +108,6 @@
 }
 
 .download-symbol {
-  height: max(25px, 8%);
-  width: max(25px, 8%);
+  height: max(20px, 8%);
+  width: max(20px, 8%);
 }
