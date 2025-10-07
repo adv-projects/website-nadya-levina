@@ -89,6 +89,7 @@
   margin-right: 5vw;
   padding: 15px;
   border-radius: 30px;
+  transition: font-weight 0.15s;
 }
 
 @media (max-width: 700px) {
