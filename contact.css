@@ -52,7 +52,7 @@
   color: white;
   font-family: Open Sans, Arial;
   font-size: clamp(1rem, 2vw, 1.2rem);
-  transition: color 0.15s;
+  transition: color 0.15s, font-weight 0.15s;
 }
 
 .social-media-link:hover {
